@@ -84,7 +84,7 @@ public class Main {
         employee = employeeBook.maxSalaryDepartment(departmentNumber);
 
         if (employee != null) {
-            System.out.println("Сотрудник с максималоьной ЗП в отделе №" + departmentNumber + ": " + employee.getIdAndName());
+            System.out.println("Сотрудник с максимальной ЗП в отделе №" + departmentNumber + ": " + employee.getIdAndName());
         } else {
             System.out.println("В отделе нет сотрудников");
         }
